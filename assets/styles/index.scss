@@ -1,0 +1,61 @@
+.index_menu{
+    display: flex;
+    justify-content: center;
+
+    .menu_wrapper {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        height: 80vh;
+        gap: 10px;
+            
+        a{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-decoration: none;
+
+            .title_menu_wrapper{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                height: 10%;
+                position: relative;
+                bottom: -85%;
+                background-color: rgba(255, 255, 255, 0.4);
+
+                p{
+                    color: black;
+                    
+    
+                }
+            }
+        }
+
+        .jump_book{
+            background-image: url("https://i.f1g.fr/media/figarofr/1194x804/2014/08/18/PHO6513ad0e-26d8-11e4-a82e-2ccb52e12b35-805x453.jpg");
+        }
+        
+        .exits{
+            background-image: url("https://i.f1g.fr/media/figarofr/1194x804/2014/08/18/PHO6513ad0e-26d8-11e4-a82e-2ccb52e12b35-805x453.jpg");
+        }
+        
+        .informations{
+            background-image: url("https://i.f1g.fr/media/figarofr/1194x804/2014/08/18/PHO6513ad0e-26d8-11e4-a82e-2ccb52e12b35-805x453.jpg");   
+        }
+        
+        .tuto{
+            background-image: url("https://i.f1g.fr/media/figarofr/1194x804/2014/08/18/PHO6513ad0e-26d8-11e4-a82e-2ccb52e12b35-805x453.jpg");
+        }
+        
+        .other{
+            background-image: url("https://i.f1g.fr/media/figarofr/1194x804/2014/08/18/PHO6513ad0e-26d8-11e4-a82e-2ccb52e12b35-805x453.jpg");
+        }
+
+    }
+}
